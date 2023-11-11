@@ -1,8 +1,9 @@
+import prisma from "@/lib/db/prisma";
 import { auth } from "@clerk/nextjs";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI-Journaling - Notes",
+  title: "FlowBrain - Notes",
 };
 
 export default async function NotesPage() {
@@ -10,9 +11,7 @@ export default async function NotesPage() {
 
   if (!userId) throw Error("userId undefined");
 
-  return (
-    <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      Notes
-    </div>
-  );
+  // const allNotes = await prisma.note.findMany({ where: { userId } });
+
+  return <div>notes</div>;
 }
