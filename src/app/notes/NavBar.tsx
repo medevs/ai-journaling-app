@@ -1,7 +1,7 @@
 "use client";
 
 import logo from "@/assets/logo.png";
-import AddNoteDialog from "@/components/AddNoteDialog";
+import AddNoteDialog from "@/components/AddEditNoteDialog";
 import { Button } from "@/components/ui/button";
 import { UserButton } from "@clerk/nextjs";
 import { Plus } from "lucide-react";
