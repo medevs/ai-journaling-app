@@ -79,7 +79,7 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
             </div>
           )}
         </div>
-        <form onSubmit={handleSubmit} className="m-3 flex gap-1">
+        <form onSubmit={handleSubmit} className="m-3 flex gap-4">
           <Button
             title="Clear chat"
             variant="outline"

@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI-Journaling",
-  description: "The intelligent note-taking app",
+  title: "GeniusDiary",
+  description: "Meet GeniusDiary, your new partner in reflection. Capture your daily stories effortlessly, receive friendly prompts from our AI, and dive into insightful conversations. It's more than journaling; it's your personal journey with a touch of brilliance.",
 };
 
 export default function RootLayout({
